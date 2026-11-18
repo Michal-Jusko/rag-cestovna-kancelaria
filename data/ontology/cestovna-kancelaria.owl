@@ -1,0 +1,705 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/tsvd/cestovna-kancelaria#"
+     xml:base="http://www.semanticweb.org/tsvd/cestovna-kancelaria"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria">
+        <rdfs:label xml:lang="sk">Cestovná kancelária</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7ApBimHPZfvAaGtqaBYLjN -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R7ApBimHPZfvAaGtqaBYLjN">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Typ_zajazdu"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Destinacia"/>
+        <rdfs:label>smeruje_do</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7tuDLLphRQFjf5WbjAmSe8 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R7tuDLLphRQFjf5WbjAmSe8">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>prebieha_v_sezone</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8EAIAJLUheHrfHuxRCdQ0q -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8EAIAJLUheHrfHuxRCdQ0q">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>ma_stravovanie</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8LjzJLKwAa8FJsX2rVo3wQ -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8LjzJLKwAa8FJsX2rVo3wQ">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>rezervuje</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9VB17ytSF2TRJZPLGh1cnO -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9VB17ytSF2TRJZPLGh1cnO">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>zahrna_sluzbu</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBiikMyDkoxyVGHMjhfTK5 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBiikMyDkoxyVGHMjhfTK5">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>pouziva_dopravu</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCO2AufYIn4xTixbQ1E9RfU -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCO2AufYIn4xTixbQ1E9RfU">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>sprevadza</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDprXEs05dUHXcdrhzMdnRm -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDprXEs05dUHXcdrhzMdnRm">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>ma_ubytovanie</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rc209Oh2Fq4ZzaMj8XRNb9 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/Rc209Oh2Fq4ZzaMj8XRNb9">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>predava</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rko1dHpt8pR3WTgqHDQdVL -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/Rko1dHpt8pR3WTgqHDQdVL">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>nachadza_sa_v</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Afrika -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Afrika">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Destinacia"/>
+        <rdfs:label xml:lang="sk">Afrika</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#All_inclusive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#All_inclusive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Stravovanie"/>
+        <rdfs:label xml:lang="sk">All inclusive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Amerika -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Amerika">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Destinacia"/>
+        <rdfs:label xml:lang="sk">Amerika</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Apartman -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Apartman">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Ubytovanie"/>
+        <rdfs:label xml:lang="sk">Apartmán</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Autobusova_doprava -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Autobusova_doprava">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Doprava"/>
+        <rdfs:label xml:lang="sk">Autobusová doprava</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Azia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Azia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Destinacia"/>
+        <rdfs:label xml:lang="sk">Ázia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Bez_stravy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Bez_stravy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Stravovanie"/>
+        <rdfs:label xml:lang="sk">Bez stravy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Cestovne_poistenie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Cestovne_poistenie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Doplnkova_sluzba"/>
+        <rdfs:label xml:lang="sk">Cestovné poistenie</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Chorvatsko -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Chorvatsko">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Europa"/>
+        <rdfs:label xml:lang="sk">Chorvátsko</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Delegat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Delegat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Zamestnanec"/>
+        <rdfs:label xml:lang="sk">Delegát</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Destinacia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Destinacia">
+        <rdfs:label xml:lang="sk">Destinácia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Dieta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Dieta">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Zakaznik"/>
+        <rdfs:label xml:lang="sk">Dieťa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Dominikanska_republika -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Dominikanska_republika">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Amerika"/>
+        <rdfs:label xml:lang="sk">Dominikánska republika</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Doplnkova_sluzba -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Doplnkova_sluzba">
+        <rdfs:label xml:lang="sk">Doplnková služba</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Doprava -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Doprava">
+        <rdfs:label xml:lang="sk">Doprava</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Dospely -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Dospely">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Zakaznik"/>
+        <rdfs:label xml:lang="sk">Dospelý</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Egypt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Egypt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Afrika"/>
+        <rdfs:label xml:lang="sk">Egypt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Europa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Europa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Destinacia"/>
+        <rdfs:label xml:lang="sk">Európa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Fakultativny_vylet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Fakultativny_vylet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Doplnkova_sluzba"/>
+        <rdfs:label xml:lang="sk">Fakultatívny výlet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Grecko -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Grecko">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Europa"/>
+        <rdfs:label xml:lang="sk">Grécko</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Horsky_pobyt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Horsky_pobyt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Pobytovy_zajazd"/>
+        <rdfs:label xml:lang="sk">Horský pobyt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Hotel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Hotel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Ubytovanie"/>
+        <rdfs:label xml:lang="sk">Hotel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Japonsko -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Japonsko">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Azia"/>
+        <rdfs:label xml:lang="sk">Japonsko</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Kemping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Kemping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Ubytovanie"/>
+        <rdfs:label xml:lang="sk">Kemping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Kena -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Kena">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Afrika"/>
+        <rdfs:label xml:lang="sk">Keňa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Letecka_doprava -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Letecka_doprava">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Doprava"/>
+        <rdfs:label xml:lang="sk">Letecká doprava</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Letna_sezona -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Letna_sezona">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Sezona"/>
+        <rdfs:label xml:lang="sk">Letná sezóna</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Lodna_doprava -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Lodna_doprava">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Doprava"/>
+        <rdfs:label xml:lang="sk">Lodná doprava</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Lyziarsky_zajazd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Lyziarsky_zajazd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Typ_zajazdu"/>
+        <rdfs:label xml:lang="sk">Lyžiarsky zájazd</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Mexiko -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Mexiko">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Amerika"/>
+        <rdfs:label xml:lang="sk">Mexiko</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Mimosezona -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Mimosezona">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Sezona"/>
+        <rdfs:label xml:lang="sk">Mimosezóna</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Okruzna_plavba -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Okruzna_plavba">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Typ_zajazdu"/>
+        <rdfs:label xml:lang="sk">Okružná plavba</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Osoba -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Osoba">
+        <rdfs:label xml:lang="sk">Osoba</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Penzion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Penzion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Ubytovanie"/>
+        <rdfs:label xml:lang="sk">Penzión</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Plna_penzia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Plna_penzia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Stravovanie"/>
+        <rdfs:label xml:lang="sk">Plná penzia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Pobyt_pri_mori -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Pobyt_pri_mori">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Pobytovy_zajazd"/>
+        <rdfs:label xml:lang="sk">Pobyt pri mori</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Pobytovy_zajazd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Pobytovy_zajazd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Typ_zajazdu"/>
+        <rdfs:label xml:lang="sk">Pobytový zájazd</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Polpenzia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Polpenzia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Stravovanie"/>
+        <rdfs:label xml:lang="sk">Polpenzia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Pozicanie_auta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Pozicanie_auta">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Doplnkova_sluzba"/>
+        <rdfs:label xml:lang="sk">Požičanie auta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Poznavaci_zajazd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Poznavaci_zajazd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Typ_zajazdu"/>
+        <rdfs:label xml:lang="sk">Poznávací zájazd</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Predajca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Predajca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Zamestnanec"/>
+        <rdfs:label xml:lang="sk">Predajca</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Ranajky -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Ranajky">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Stravovanie"/>
+        <rdfs:label xml:lang="sk">Raňajky</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Resort -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Resort">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Ubytovanie"/>
+        <rdfs:label xml:lang="sk">Resort</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Senior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Senior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Zakaznik"/>
+        <rdfs:label xml:lang="sk">Senior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Sezona -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Sezona">
+        <rdfs:label xml:lang="sk">Sezóna</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Spanielsko -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Spanielsko">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Europa"/>
+        <rdfs:label xml:lang="sk">Španielsko</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Spojene_arabske_emiraty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Spojene_arabske_emiraty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Azia"/>
+        <rdfs:label xml:lang="sk">Spojené arabské emiráty</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Sprievodca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Sprievodca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Zamestnanec"/>
+        <rdfs:label xml:lang="sk">Sprievodca</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Stravovanie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Stravovanie">
+        <rdfs:label xml:lang="sk">Stravovanie</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Taliansko -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Taliansko">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Europa"/>
+        <rdfs:label xml:lang="sk">Taliansko</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Thajsko -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Thajsko">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Azia"/>
+        <rdfs:label xml:lang="sk">Thajsko</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Transfer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Transfer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Doplnkova_sluzba"/>
+        <rdfs:label xml:lang="sk">Transfer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Tunisko -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Tunisko">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Afrika"/>
+        <rdfs:label xml:lang="sk">Tunisko</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Typ_zajazdu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Typ_zajazdu">
+        <rdfs:label xml:lang="sk">Typ zájazdu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#USA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#USA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Amerika"/>
+        <rdfs:label xml:lang="sk">USA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Ubytovanie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Ubytovanie">
+        <rdfs:label xml:lang="sk">Ubytovanie</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Vlakova_doprava -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Vlakova_doprava">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Doprava"/>
+        <rdfs:label xml:lang="sk">Vlaková doprava</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Vlastna_doprava -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Vlastna_doprava">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Doprava"/>
+        <rdfs:label xml:lang="sk">Vlastná doprava</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Wellness_pobyt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Wellness_pobyt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Pobytovy_zajazd"/>
+        <rdfs:label xml:lang="sk">Wellness pobyt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Zakaznik -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Zakaznik">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Osoba"/>
+        <rdfs:label xml:lang="sk">Zákazník</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Zamestnanec -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Zamestnanec">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Osoba"/>
+        <rdfs:label xml:lang="sk">Zamestnanec</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tsvd/cestovna-kancelaria#Zimna_sezona -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Zimna_sezona">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Sezona"/>
+        <rdfs:label xml:lang="sk">Zimná sezóna</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Destinacia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Doplnkova_sluzba"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Doprava"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Osoba"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Sezona"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Stravovanie"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Typ_zajazdu"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/tsvd/cestovna-kancelaria#Ubytovanie"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+

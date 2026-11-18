@@ -1,0 +1,106 @@
+[
+  {
+    "otazka": "Na čo mám nárok, ak mi zrušia let do Egypta?",
+    "zdroj": [
+      "261_2004",
+      "eda_prava"
+    ],
+    "pojmy": [
+      "Egypt",
+      "Letecká doprava"
+    ]
+  },
+  {
+    "otazka": "Akú náhradu dostanem pri veľkom meškaní letu?",
+    "zdroj": [
+      "261_2004",
+      "eda_prava"
+    ],
+    "pojmy": [
+      "Letecká doprava"
+    ]
+  },
+  {
+    "otazka": "Do kedy môže cestovná kancelária zrušiť zájazd bez náhrady škody?",
+    "zdroj": [
+      "zakon_170",
+      "vop",
+      "vzp"
+    ],
+    "pojmy": []
+  },
+  {
+    "otazka": "Môže cestovná kancelária zvýšiť cenu zájazdu po podpise zmluvy?",
+    "zdroj": [
+      "zakon_170",
+      "vop",
+      "vzp"
+    ],
+    "pojmy": []
+  },
+  {
+    "otazka": "Kryje cestovné poistenie liečebné náklady v Thajsku?",
+    "zdroj": [
+      "union"
+    ],
+    "pojmy": [
+      "Cestovné poistenie",
+      "Thajsko"
+    ]
+  },
+  {
+    "otazka": "Aké práva mám, keď mi mešká vlak?",
+    "zdroj": [
+      "2021_782"
+    ],
+    "pojmy": [
+      "Vlaková doprava"
+    ]
+  },
+  {
+    "otazka": "Čo mi patrí, ak sa zruší okružná plavba loďou?",
+    "zdroj": [
+      "1177_2010"
+    ],
+    "pojmy": [
+      "Okružná plavba"
+    ]
+  },
+  {
+    "otazka": "Aké typy pobytových zájazdov ponúkate?",
+    "zdroj": [],
+    "pojmy": [
+      "Pobytový zájazd"
+    ]
+  },
+  {
+    "otazka": "Aké druhy stravovania si môžem vybrať k hotelu v Grécku?",
+    "zdroj": [],
+    "pojmy": [
+      "Stravovanie",
+      "Hotel",
+      "Grécko"
+    ]
+  },
+  {
+    "otazka": "Čo sa stane s mojím zájazdom, ak cestovná kancelária skrachuje počas pobytu v Tunisku?",
+    "zdroj": [
+      "allianz",
+      "zakon_170"
+    ],
+    "pojmy": [
+      "Tunisko"
+    ]
+  },
+  {
+    "otazka": "Naplánuj mi týždennú dovolenku pri mori v lete s deťmi.",
+    "zdroj": [
+      "katalog"
+    ],
+    "pojmy": [
+      "Pobyt pri mori",
+      "Letná sezóna",
+      "Dieťa"
+    ]
+  }
+]

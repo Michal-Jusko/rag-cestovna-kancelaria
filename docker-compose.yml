@@ -1,0 +1,46 @@
+# Spustenie celej aplikácie jedným príkazom:  docker compose up --build
+# Potom otvor http://localhost:8501
+services:
+  ollama:
+    image: ollama/ollama:latest
+    volumes:
+      - ollama_models:/root/.ollama
+    ports:
+      - "11434:11434"
+    # Ak máš NVIDIA GPU, odkomentuj:
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: all
+    #           capabilities: [gpu]
+
+  # jednorazovo stiahne modely (pri ďalších spusteniach sú už vo volume)
+  ollama-pull:
+    image: ollama/ollama:latest
+    depends_on: [ollama]
+    environment:
+      - OLLAMA_HOST=http://ollama:11434
+    volumes:
+      - ollama_models:/root/.ollama
+    entrypoint: ["/bin/sh", "-c", "sleep 5 && ollama pull ${LLM_MODEL:-gemma3:4b} && ollama pull ${EMBED_MODEL:-bge-m3}"]
+    restart: "no"
+
+  app:
+    build: .
+    depends_on:
+      ollama-pull:
+        condition: service_completed_successfully
+    environment:
+      - OLLAMA_HOST=http://ollama:11434
+      - LLM_MODEL=${LLM_MODEL:-gemma3:4b}
+      - EMBED_MODEL=${EMBED_MODEL:-bge-m3}
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/app/data            # PDF a ontológia (môžeš meniť bez rebuildu)
+      - ./chroma_db:/app/chroma_db  # vektorový index ostáva aj po reštarte
+
+volumes:
+  ollama_models:
